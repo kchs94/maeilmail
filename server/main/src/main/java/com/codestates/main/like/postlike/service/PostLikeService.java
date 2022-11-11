@@ -1,10 +1,10 @@
 package com.codestates.main.like.postlike.service;
 
-import com.codestates.main.config.SecurityUtils;
+import com.codestates.main.other.config.SecurityUtils;
 import com.codestates.main.like.postlike.entity.PostLike;
 import com.codestates.main.like.postlike.repository.PostLikeRepository;
-import com.codestates.main.member.entity.Member;
-import com.codestates.main.member.service.MemberService;
+import com.codestates.main.other.member.entity.Member;
+import com.codestates.main.other.member.service.MemberService;
 import com.codestates.main.post.entity.Post;
 import com.codestates.main.post.service.PostService;
 import lombok.RequiredArgsConstructor;

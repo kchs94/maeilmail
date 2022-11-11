@@ -3,7 +3,7 @@ package com.codestates.main.comment.entity;
 import com.codestates.main.answer.entity.Answer;
 import com.codestates.main.auditing.BaseEntity;
 import com.codestates.main.like.commentlike.entity.CommentLike;
-import com.codestates.main.member.entity.Member;
+import com.codestates.main.other.member.entity.Member;
 import com.codestates.main.post.entity.Post;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

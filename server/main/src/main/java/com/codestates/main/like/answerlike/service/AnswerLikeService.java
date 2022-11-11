@@ -2,11 +2,11 @@ package com.codestates.main.like.answerlike.service;
 
 import com.codestates.main.answer.entity.Answer;
 import com.codestates.main.answer.service.AnswerService;
-import com.codestates.main.config.SecurityUtils;
+import com.codestates.main.other.config.SecurityUtils;
 import com.codestates.main.like.answerlike.entity.AnswerLike;
 import com.codestates.main.like.answerlike.repository.AnswerLikeRepository;
-import com.codestates.main.member.entity.Member;
-import com.codestates.main.member.service.MemberService;
+import com.codestates.main.other.member.entity.Member;
+import com.codestates.main.other.member.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,30 +1,14 @@
 package com.codestates.main;
 
-import com.codestates.main.answer.entity.Answer;
-import com.codestates.main.answer.service.AnswerService;
-import com.codestates.main.comment.entity.Comment;
-import com.codestates.main.comment.service.CommentService;
-import com.codestates.main.member.entity.Member;
-import com.codestates.main.member.service.MemberService;
-import com.codestates.main.post.entity.Post;
-import com.codestates.main.post.service.PostService;
-import com.codestates.main.question.entity.Question;
-import com.codestates.main.question.service.QuestionService;
-import com.codestates.main.questionCategory.entity.QuestionCategory;
-import com.codestates.main.questionCategory.service.QuestionCategoryService;
-import com.codestates.main.subscription.entity.Subscription;
+import com.codestates.main.other.member.entity.Member;
+import com.codestates.main.other.member.service.MemberService;
+import com.codestates.main.other.questionCategory.entity.QuestionCategory;
+import com.codestates.main.other.questionCategory.service.QuestionCategoryService;
 import lombok.RequiredArgsConstructor;
-import org.apache.tomcat.util.http.fileupload.FileUtils;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
-import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.nio.file.StandardCopyOption;
 
 @Component
 @RequiredArgsConstructor

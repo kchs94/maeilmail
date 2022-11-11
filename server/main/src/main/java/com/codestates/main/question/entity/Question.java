@@ -2,8 +2,8 @@ package com.codestates.main.question.entity;
 
 import com.codestates.main.answer.entity.Answer;
 import com.codestates.main.auditing.BaseEntity;
-import com.codestates.main.member.entity.Member;
-import com.codestates.main.questionCategory.entity.QuestionCategory;
+import com.codestates.main.other.member.entity.Member;
+import com.codestates.main.other.questionCategory.entity.QuestionCategory;
 import lombok.*;
 
 import javax.persistence.*;

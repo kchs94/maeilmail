@@ -1,7 +1,7 @@
 package com.codestates.main.advice;
 
 import com.codestates.main.exception.BusinessLogicException;
-import com.codestates.main.response.ErrorResponse;
+import com.codestates.main.other.response.ErrorResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.converter.HttpMessageNotReadableException;

@@ -1,6 +1,6 @@
 package com.codestates.main.like.postlike.entity;
 
-import com.codestates.main.member.entity.Member;
+import com.codestates.main.other.member.entity.Member;
 import com.codestates.main.post.entity.Post;
 import lombok.*;
 

@@ -3,9 +3,8 @@ package com.codestates.main.answer.entity;
 import com.codestates.main.auditing.BaseEntity;
 import com.codestates.main.comment.entity.Comment;
 import com.codestates.main.like.answerlike.entity.AnswerLike;
-import com.codestates.main.member.entity.Member;
+import com.codestates.main.other.member.entity.Member;
 import com.codestates.main.question.entity.Question;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 
 import javax.persistence.*;

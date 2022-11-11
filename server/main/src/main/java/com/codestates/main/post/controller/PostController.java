@@ -1,6 +1,6 @@
 package com.codestates.main.post.controller;
 
-import com.codestates.main.config.SecurityUtils;
+import com.codestates.main.other.config.SecurityUtils;
 import com.codestates.main.dto.MultiResponseDto;
 import com.codestates.main.post.dto.PostPatchDto;
 import com.codestates.main.post.dto.PostPostDto;
@@ -8,16 +8,14 @@ import com.codestates.main.post.dto.PostResponseDto;
 import com.codestates.main.post.dto.PostResponseDto2;
 import com.codestates.main.post.entity.Post;
 import com.codestates.main.post.mapper.PostMapper;
-import com.codestates.main.member.entity.Member;
-import com.codestates.main.member.service.MemberService;
+import com.codestates.main.other.member.entity.Member;
+import com.codestates.main.other.member.service.MemberService;
 import com.codestates.main.post.service.PostService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.core.Authentication;
-import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 

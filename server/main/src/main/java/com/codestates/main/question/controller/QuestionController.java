@@ -1,11 +1,9 @@
 package com.codestates.main.question.controller;
 
-import com.codestates.main.config.SecurityUtils;
+import com.codestates.main.other.config.SecurityUtils;
 import com.codestates.main.dto.MultiResponseDto;
-import com.codestates.main.dto.SingleResponseDto;
-import com.codestates.main.member.entity.Member;
-import com.codestates.main.member.repository.MemberRepository;
-import com.codestates.main.member.service.MemberService;
+import com.codestates.main.other.member.entity.Member;
+import com.codestates.main.other.member.service.MemberService;
 import com.codestates.main.question.dto.QuestionPatchDto;
 import com.codestates.main.question.dto.QuestionPostDto;
 import com.codestates.main.question.dto.QuestionResponseDto;
@@ -13,8 +11,8 @@ import com.codestates.main.question.dto.QuestionResponseDto2;
 import com.codestates.main.question.entity.Question;
 import com.codestates.main.question.mapper.QuestionMapper;
 import com.codestates.main.question.service.QuestionService;
-import com.codestates.main.questionCategory.entity.QuestionCategory;
-import com.codestates.main.questionCategory.service.QuestionCategoryService;
+import com.codestates.main.other.questionCategory.entity.QuestionCategory;
+import com.codestates.main.other.questionCategory.service.QuestionCategoryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.http.HttpStatus;

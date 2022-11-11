@@ -1,9 +1,6 @@
 package com.codestates.main.question.dto;
 
-import com.codestates.main.answer.dto.AnswerResponseDto;
 import com.codestates.main.answer.dto.AnswerResponseDto2;
-import com.codestates.main.answer.entity.Answer;
-import com.codestates.main.member.entity.Member;
 import com.codestates.main.question.entity.Question;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

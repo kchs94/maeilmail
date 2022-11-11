@@ -2,18 +2,15 @@ package com.codestates.main.question.service;
 
 import com.codestates.main.exception.BusinessLogicException;
 import com.codestates.main.exception.ExceptionCode;
-import com.codestates.main.member.repository.MemberRepository;
-import com.codestates.main.question.dto.QuestionResponseDto;
+import com.codestates.main.other.member.repository.MemberRepository;
 import com.codestates.main.question.entity.Question;
 import com.codestates.main.question.repository.QuestionRepository;
-import com.codestates.main.questionCategory.entity.QuestionCategory;
-import com.codestates.main.questionCategory.repository.QuestionCategoryRepository;
-import com.codestates.main.questionCategory.service.QuestionCategoryService;
+import com.codestates.main.other.questionCategory.entity.QuestionCategory;
+import com.codestates.main.other.questionCategory.repository.QuestionCategoryRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;

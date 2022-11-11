@@ -2,11 +2,11 @@ package com.codestates.main.like.commentlike.service;
 
 import com.codestates.main.comment.entity.Comment;
 import com.codestates.main.comment.service.CommentService;
-import com.codestates.main.config.SecurityUtils;
+import com.codestates.main.other.config.SecurityUtils;
 import com.codestates.main.like.commentlike.entity.CommentLike;
 import com.codestates.main.like.commentlike.repository.CommentLikeRepository;
-import com.codestates.main.member.entity.Member;
-import com.codestates.main.member.service.MemberService;
+import com.codestates.main.other.member.entity.Member;
+import com.codestates.main.other.member.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

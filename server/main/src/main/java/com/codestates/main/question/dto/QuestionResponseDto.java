@@ -1,18 +1,14 @@
 package com.codestates.main.question.dto;
 
-import com.codestates.main.answer.entity.Answer;
-import com.codestates.main.member.dto.MemberDTO;
-import com.codestates.main.member.entity.Member;
+import com.codestates.main.other.member.dto.MemberDTO;
 import com.codestates.main.question.entity.Question;
-import com.codestates.main.questionCategory.dto.QuestionCategoryResponseDto;
-import com.codestates.main.questionCategory.entity.QuestionCategory;
+import com.codestates.main.other.questionCategory.dto.QuestionCategoryResponseDto;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
-import java.util.List;
 
 @Getter
 @NoArgsConstructor

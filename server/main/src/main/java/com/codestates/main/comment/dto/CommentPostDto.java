@@ -1,6 +1,5 @@
 package com.codestates.main.comment.dto;
 
-import com.codestates.main.member.entity.Member;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;

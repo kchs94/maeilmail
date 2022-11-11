@@ -1,7 +1,7 @@
 package com.codestates.main.like.answerlike.entity;
 
 import com.codestates.main.answer.entity.Answer;
-import com.codestates.main.member.entity.Member;
+import com.codestates.main.other.member.entity.Member;
 import lombok.*;
 
 import javax.persistence.*;

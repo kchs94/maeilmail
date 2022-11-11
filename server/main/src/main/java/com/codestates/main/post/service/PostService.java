@@ -4,7 +4,7 @@ import com.codestates.main.exception.BusinessLogicException;
 import com.codestates.main.exception.ExceptionCode;
 import com.codestates.main.post.entity.Post;
 import com.codestates.main.post.repository.PostRepository;
-import com.codestates.main.member.service.MemberService;
+import com.codestates.main.other.member.service.MemberService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

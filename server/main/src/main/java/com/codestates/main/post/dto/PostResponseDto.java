@@ -1,7 +1,6 @@
 package com.codestates.main.post.dto;
 
-import com.codestates.main.member.dto.MemberDTO;
-import com.codestates.main.member.entity.Member;
+import com.codestates.main.other.member.dto.MemberDTO;
 import com.codestates.main.post.entity.Post;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
