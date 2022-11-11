@@ -1,8 +1,6 @@
 package com.codestates.main.member.controller;
 
 import com.codestates.main.exception.BusinessLogicException;
-import com.codestates.main.mail.mapper.MailMapper;
-import com.codestates.main.mail.service.MailService;
 import com.codestates.main.member.dto.MemberDTO;
 import com.codestates.main.member.entity.Member;
 import com.codestates.main.member.mapper.MemberMapper;
@@ -30,14 +28,12 @@ import org.springframework.web.bind.annotation.*;
 public class MemberController {
     private final MemberMapper memberMapper;
     private final MemberService memberService;
-    private final MailMapper mailMapper;
     private final QuestionCategoryService questionCategoryService;
 
     private final SubscriptionService subscriptionService;
 
     private final SubscriptionMapper subscriptionMapper;
 
-    private final MailService mailService;
     @PostMapping("/post")
     //@Transactional
     public ResponseEntity<Object> postMember(@RequestBody MemberDTO.Post requestBody) throws BusinessLogicException {

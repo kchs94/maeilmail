@@ -1,9 +1,5 @@
 package com.codestates.main.home;
 
-import com.amazonaws.services.s3.AmazonS3Client;
-import com.amazonaws.services.s3.model.CannedAccessControlList;
-import com.amazonaws.services.s3.model.ObjectMetadata;
-import com.amazonaws.services.s3.model.PutObjectRequest;
 import com.codestates.main.member.dto.MemberDTO;
 import com.codestates.main.member.entity.Member;
 import com.codestates.main.member.mapper.MemberMapper;

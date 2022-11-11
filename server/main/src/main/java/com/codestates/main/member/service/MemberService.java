@@ -23,8 +23,6 @@ public class MemberService{
     private final MemberRepository memberRepository;
     private final BCryptPasswordEncoder bCryptPasswordEncoder;
 
-    @Value("${cloud.aws.s3.url}")
-    private String s3Url;
     private final SubscriptionService subscriptionService;
     public Member createMember(Member member) {
 
@@ -36,7 +34,6 @@ public class MemberService{
         String password = member.getPassword();
         member.setPassword(bCryptPasswordEncoder.encode(password));
         member.setRole(Member.ROLE.ROLE_USER);
-        member.setPicture(s3Url+"default.png");
         return memberRepository.save(member);
     }
 
@@ -49,7 +46,6 @@ public class MemberService{
         String password = member.getPassword();
         member.setPassword(bCryptPasswordEncoder.encode(password));
         member.setRole(Member.ROLE.ROLE_ADMIN);
-        member.setPicture(s3Url+"default.png");
         return memberRepository.save(member);
     }
 

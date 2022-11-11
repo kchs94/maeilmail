@@ -31,15 +31,11 @@ import java.nio.file.StandardCopyOption;
 public class InitDb {
 
     private final MemberService memberService;
-    private final PostService postService;
-    private final CommentService commentService;
-    private final QuestionService questionService;
     private final QuestionCategoryService questionCategoryService;
-    private final AnswerService answerService;
 
     String[] categories = new String[]{"Java", "React", "Spring", "Data Structure", "Operating System", "Database", "Network", "Javascript"};
 
-    //@PostConstruct
+    @PostConstruct
     public void init() throws IOException {
 
         Member member = Member.builder()
