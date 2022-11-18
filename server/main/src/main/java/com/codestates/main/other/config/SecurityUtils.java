@@ -8,9 +8,9 @@ import org.springframework.security.core.context.SecurityContextHolder;
 public class SecurityUtils {
 
     /**
-     * 로그인한 회원을 반환하는 메서드
+     * 인증된 회원을 반환하는 메서드
      * @param memberService
-     * @return 회원
+     * @return 인증된 회원
      */
     public static Member getCurrentMember(MemberService memberService) {
         Authentication user = SecurityContextHolder.getContext().getAuthentication();

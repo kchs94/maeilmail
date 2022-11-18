@@ -36,6 +36,11 @@ public class PostController {
     private final MemberService memberService;
 
 
+    /**
+     * 게시판 글 등록
+     * @param postPostDto
+     * @return
+     */
     @PostMapping
     public ResponseEntity postPost(@Valid @RequestBody PostPostDto postPostDto) {
         Member findMember = SecurityUtils.getCurrentMember(memberService);
