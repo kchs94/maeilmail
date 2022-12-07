@@ -10,6 +10,7 @@
 
 원하는 카테고리를 구독하여 해당 카테고리에 대한 질문을 메일로 받으실 수 있습니다.
 
+
 ## 프로젝트 목표
 
 - 프론트엔드와 백엔드 소통 연습하기
@@ -27,6 +28,74 @@
 | :---: | :---: | :---: | :---: |
 | ![](https://github.com/JungYunHan.png) | ![](https://github.com/anotheranotherhoon.png) | ![](https://github.com/kchs94.png) | ![](https://github.com/soobinkim-kor.png) |
 | Frontend(팀장) | Frontend | Backend | Backend |
+
+## 서비스 동작 화면
+
+### 렌딩페이지
+
+![ 렌딩페이지](https://user-images.githubusercontent.com/49191949/206222525-ae52f68e-3494-459c-82df-98f31d64f61a.gif)
+
+
+
+### 회원가입 페이지
+
+![회원가입](https://user-images.githubusercontent.com/49191949/206223541-bed9e269-12c0-47a9-982e-c529a967823c.gif)
+
+
+
+### 로그인 페이지
+
+![로그인](https://user-images.githubusercontent.com/49191949/206223704-96e58804-ac3f-4c2e-b560-2ccce861623f.gif)
+
+
+
+### 구독 페이지
+
+![구독페이지](https://user-images.githubusercontent.com/49191949/206223787-00876bf6-862c-4f15-bf4b-a2c0b3a935dd.gif)
+
+
+
+### 이메일로 데일리 기술질문 전송
+
+![이메일](https://user-images.githubusercontent.com/49191949/206223952-b8d66f51-8470-43f5-847b-8e8ce667d343.gif)
+
+
+
+### 질문/답변 게시판 및 검색기능
+
+![질문게시판](https://user-images.githubusercontent.com/49191949/206223994-d5998854-b64e-4a5b-a994-c3585437e83f.gif)
+
+
+
+### 답변게시판
+
+![답변게시판](https://user-images.githubusercontent.com/49191949/206224296-43bead5d-4027-4007-baef-9f3f46b4bab4.gif)
+
+
+
+### 자유/건의 게시판
+
+![자유게시판](https://user-images.githubusercontent.com/49191949/206224779-cec97f4f-cb96-4536-bf28-f4cbe37002d0.gif)
+
+
+
+### 글작성 페이지
+
+![글작성페이지](https://user-images.githubusercontent.com/49191949/206224823-102e6b35-e0f3-4693-8e38-b639d5e46ea2.gif)
+
+### 마이페이지
+
+![마이페이지](https://user-images.githubusercontent.com/49191949/206224959-8529fcaf-6630-41cf-93d9-bb80646900f2.gif)
+
+
+
+
+
+### 프로젝트 구조
+
+![구조](https://user-images.githubusercontent.com/49191949/206225575-63cfe312-3177-4b07-8a2e-999cf432787c.png)
+
+
 
 ## 기술 스택
 
