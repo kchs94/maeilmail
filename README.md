@@ -193,3 +193,6 @@ https://www.figma.com/file/b2KuIpCLIvchUL8sai0pQE/Untitled?node-id=0%3A1
 
 ## 엔티티 클래스 다이어그램
 https://drive.google.com/file/d/11KQgu9tFPHk1Sj8x9bjyvWXCxsZWwf6V/view?usp=sharing 
+
+### 프로젝트 트러블슈팅 회고하기
+https://kchs94.tistory.com/248
