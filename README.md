@@ -58,6 +58,7 @@
 - `AWS EC2`
 - `AWS amplify`
 - `AWS S3`
+- `AWS RDS`
 
 ### **문서/협업**
 
@@ -118,4 +119,4 @@ https://documenter.getpostman.com/view/15776280/2s83maLkak
 https://www.figma.com/file/b2KuIpCLIvchUL8sai0pQE/Untitled?node-id=0%3A1
 
 ## 엔티티 클래스 다이어그램
-https://app.diagrams.net/#G11KQgu9tFPHk1Sj8x9bjyvWXCxsZWwf6V 
+https://drive.google.com/file/d/11KQgu9tFPHk1Sj8x9bjyvWXCxsZWwf6V/view?usp=sharing 
